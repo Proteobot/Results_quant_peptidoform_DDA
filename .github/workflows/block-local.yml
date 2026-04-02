@@ -1,0 +1,20 @@
+name: Block do-not-merge
+
+on:
+  pull_request:
+    types: [labeled, unlabeled, opened, synchronize, reopened]
+
+jobs:
+  check-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for do-not-merge label
+        env:
+          LABELS: ${{ toJSON(github.event.pull_request.labels.*.name) }}
+        run: |
+          if echo "$LABELS" | grep -q "do-not-merge"; then
+            echo "::error::This PR has the 'do-not-merge' label and cannot be merged."
+            echo "This is a local submission — data was not stored on the server."
+            exit 1
+          fi
+          echo "No blocking labels found."
