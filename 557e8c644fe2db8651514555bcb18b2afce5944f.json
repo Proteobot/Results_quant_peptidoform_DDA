@@ -49,13 +49,9 @@
       "CV_q75": 0.23936409024013294,
       "CV_q90": 0.376770995929151,
       "CV_q95": 0.5200939570475022,
-      "roc_auc": 0.9276829224915151,
-      "roc_auc_directional": 0.9723711743883097,
-      "nr_prec": 28508,
-      "nr_prec_HUMAN": 21452,
-      "nr_prec_YEAST": 6141,
-      "nr_prec_ECOLI": 915,
-      "variance_epsilon_global": 0.13677992526541655
+      "variance_epsilon_global": 0.13677992526541655,
+      "nr_feature": 28508,
+      "roc_auc": 0.9276829224915151
     },
     "5": {
       "median_abs_epsilon_global": 0.1988592785393685,
@@ -88,13 +84,9 @@
       "CV_q75": 0.24549117527592046,
       "CV_q90": 0.39497303847872645,
       "CV_q95": 0.5468420497659792,
-      "roc_auc": 0.9182759409799952,
-      "roc_auc_directional": 0.9676743410835215,
-      "nr_prec": 30930,
-      "nr_prec_HUMAN": 22974,
-      "nr_prec_YEAST": 6841,
-      "nr_prec_ECOLI": 1115,
-      "variance_epsilon_global": 0.15343867492962657
+      "variance_epsilon_global": 0.15343867492962657,
+      "nr_feature": 30930,
+      "roc_auc": 0.9182759409799952
     },
     "4": {
       "median_abs_epsilon_global": 0.20378419213905818,
@@ -127,13 +119,9 @@
       "CV_q75": 0.2481541380372871,
       "CV_q90": 0.40283793669848045,
       "CV_q95": 0.5580373555057685,
-      "roc_auc": 0.9109476100446364,
-      "roc_auc_directional": 0.961159879722001,
-      "nr_prec": 32251,
-      "nr_prec_HUMAN": 23739,
-      "nr_prec_YEAST": 7235,
-      "nr_prec_ECOLI": 1277,
-      "variance_epsilon_global": 0.17032386893937254
+      "variance_epsilon_global": 0.17032386893937254,
+      "nr_feature": 32251,
+      "roc_auc": 0.9109476100446364
     },
     "3": {
       "median_abs_epsilon_global": 0.20579853154100636,
@@ -166,13 +154,9 @@
       "CV_q75": 0.2494353167464216,
       "CV_q90": 0.4068646698679658,
       "CV_q95": 0.5648565195190887,
-      "roc_auc": 0.9065171449650324,
-      "roc_auc_directional": 0.9581664869055685,
-      "nr_prec": 33229,
-      "nr_prec_HUMAN": 24214,
-      "nr_prec_YEAST": 7511,
-      "nr_prec_ECOLI": 1504,
-      "variance_epsilon_global": 0.17903582696420792
+      "variance_epsilon_global": 0.17903582696420792,
+      "nr_feature": 33229,
+      "roc_auc": 0.9065171449650324
     },
     "2": {
       "median_abs_epsilon_global": 0.20708451682319362,
@@ -205,13 +189,9 @@
       "CV_q75": 0.24980471659758452,
       "CV_q90": 0.40881118148456286,
       "CV_q95": 0.5676938781569263,
-      "roc_auc": 0.904881576282536,
-      "roc_auc_directional": 0.9569910231682673,
-      "nr_prec": 33767,
-      "nr_prec_HUMAN": 24573,
-      "nr_prec_YEAST": 7652,
-      "nr_prec_ECOLI": 1542,
-      "variance_epsilon_global": 0.18499427449061867
+      "variance_epsilon_global": 0.18499427449061867,
+      "nr_feature": 33767,
+      "roc_auc": 0.904881576282536
     },
     "1": {
       "median_abs_epsilon_global": 0.20708451682319362,
@@ -244,25 +224,18 @@
       "CV_q75": 0.24980471659758452,
       "CV_q90": 0.40881118148456286,
       "CV_q95": 0.5676938781569263,
-      "roc_auc": 0.904881576282536,
-      "roc_auc_directional": 0.9569910231682673,
-      "nr_prec": 33767,
-      "nr_prec_HUMAN": 24573,
-      "nr_prec_YEAST": 7652,
-      "nr_prec_ECOLI": 1542,
-      "variance_epsilon_global": 0.18499427449061867
+      "variance_epsilon_global": 0.18499427449061867,
+      "nr_feature": 33767,
+      "roc_auc": 0.904881576282536
     }
   },
   "median_abs_epsilon": NaN,
   "mean_abs_epsilon": NaN,
-  "nr_prec": 33767,
+  "nr_feature": 33767,
   "comments": "",
-  "proteobench_version": "0.13.2",
-  "color": "#d30067",
-  "hover_text": "ProteoBench ID: WOMBAT_20250522_073658<br>Software tool: WOMBAT <br>Comment (private submission): ...",
-  "scatter_size": 40,
-  "fixed_mods": "Carbamidomethyl of C",
-  "variable_mods": "Acetyl of Protein N-term,Oxidation of M",
+  "proteobench_version": "0.16.4",
+  "fixed_mods": "C[Carbamidomethyl]",
+  "variable_mods": "Protein N-term[Acetyl], M[Oxidation]",
   "max_mods": 4,
   "min_precursor_charge": 2,
   "max_precursor_charge": 4,

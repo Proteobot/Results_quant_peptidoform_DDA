@@ -49,13 +49,9 @@
       "CV_q75": 0.22767771301427203,
       "CV_q90": 0.35425542206343885,
       "CV_q95": 0.4853751715697272,
-      "roc_auc": 0.9518348590106792,
-      "roc_auc_directional": 0.9769656179072522,
-      "nr_prec": 22137,
-      "nr_prec_HUMAN": 17468,
-      "nr_prec_YEAST": 4230,
-      "nr_prec_ECOLI": 439,
-      "variance_epsilon_global": 0.1286761111337827
+      "variance_epsilon_global": 0.1286761111337827,
+      "nr_feature": 22137,
+      "roc_auc": 0.9518348590106792
     },
     "5": {
       "median_abs_epsilon_global": 0.18225686263966168,
@@ -88,13 +84,9 @@
       "CV_q75": 0.23820198158047157,
       "CV_q90": 0.38025755066811007,
       "CV_q95": 0.5274931514062311,
-      "roc_auc": 0.9316525663680951,
-      "roc_auc_directional": 0.970023672668948,
-      "nr_prec": 27931,
-      "nr_prec_HUMAN": 21712,
-      "nr_prec_YEAST": 5560,
-      "nr_prec_ECOLI": 659,
-      "variance_epsilon_global": 0.16311413725203883
+      "variance_epsilon_global": 0.16311413725203883,
+      "nr_feature": 27931,
+      "roc_auc": 0.9316525663680951
     },
     "4": {
       "median_abs_epsilon_global": 0.19598815128093605,
@@ -127,13 +119,9 @@
       "CV_q75": 0.24435515490588838,
       "CV_q90": 0.3942359231189289,
       "CV_q95": 0.5479616066064945,
-      "roc_auc": 0.913329265828286,
-      "roc_auc_directional": 0.962148912899287,
-      "nr_prec": 32409,
-      "nr_prec_HUMAN": 24844,
-      "nr_prec_YEAST": 6670,
-      "nr_prec_ECOLI": 895,
-      "variance_epsilon_global": 0.21119368751353648
+      "variance_epsilon_global": 0.21119368751353648,
+      "nr_feature": 32409,
+      "roc_auc": 0.913329265828286
     },
     "3": {
       "median_abs_epsilon_global": 0.20494790264708307,
@@ -166,13 +154,9 @@
       "CV_q75": 0.24754395089478134,
       "CV_q90": 0.403273849853682,
       "CV_q95": 0.5594161834067383,
-      "roc_auc": 0.9016941521023072,
-      "roc_auc_directional": 0.9560410597219844,
-      "nr_prec": 36363,
-      "nr_prec_HUMAN": 27319,
-      "nr_prec_YEAST": 7679,
-      "nr_prec_ECOLI": 1365,
-      "variance_epsilon_global": 0.24215630982066055
+      "variance_epsilon_global": 0.24215630982066055,
+      "nr_feature": 36363,
+      "roc_auc": 0.9016941521023072
     },
     "2": {
       "median_abs_epsilon_global": 0.209055453663181,
@@ -205,13 +189,9 @@
       "CV_q75": 0.24861515057330097,
       "CV_q90": 0.4061294386018139,
       "CV_q95": 0.5627547825758206,
-      "roc_auc": 0.8957032182023322,
-      "roc_auc_directional": 0.9528872223918781,
-      "nr_prec": 39355,
-      "nr_prec_HUMAN": 29347,
-      "nr_prec_YEAST": 8414,
-      "nr_prec_ECOLI": 1594,
-      "variance_epsilon_global": 0.2628029671963605
+      "variance_epsilon_global": 0.2628029671963605,
+      "nr_feature": 39355,
+      "roc_auc": 0.8957032182023322
     },
     "1": {
       "median_abs_epsilon_global": 0.209055453663181,
@@ -244,25 +224,18 @@
       "CV_q75": 0.24861515057330097,
       "CV_q90": 0.4061294386018139,
       "CV_q95": 0.5627547825758206,
-      "roc_auc": 0.8957032182023322,
-      "roc_auc_directional": 0.9528872223918781,
-      "nr_prec": 41314,
-      "nr_prec_HUMAN": 30651,
-      "nr_prec_YEAST": 8913,
-      "nr_prec_ECOLI": 1750,
-      "variance_epsilon_global": 0.2628029671963605
+      "variance_epsilon_global": 0.2628029671963605,
+      "nr_feature": 41314,
+      "roc_auc": 0.8957032182023322
     }
   },
   "median_abs_epsilon": NaN,
   "mean_abs_epsilon": NaN,
-  "nr_prec": 41314,
+  "nr_feature": 41314,
   "comments": "",
-  "proteobench_version": "0.13.2",
-  "color": "#f781bf",
-  "hover_text": "ProteoBench ID: WOMBAT_20250610_093243<br>Software tool: WOMBAT <br>Comment (private submission): ...",
-  "scatter_size": 20,
-  "fixed_mods": "Carbamidomethyl of C",
-  "variable_mods": "Acetyl of Protein N-term,Oxidation of M",
+  "proteobench_version": "0.16.4",
+  "fixed_mods": "C[Carbamidomethyl]",
+  "variable_mods": "Protein N-term[Acetyl], M[Oxidation]",
   "max_mods": 4,
   "min_precursor_charge": 2,
   "max_precursor_charge": 4,
